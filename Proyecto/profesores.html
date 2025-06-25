@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profesores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #000000;
+      background-color: #e4e792;
+      padding: 40px;
+    }
+    .menu {
+      display: flex;
+      position: absolute;
+      top: 0px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .menu a{
+      display: block;
+      margin: 10px ;
+      padding: 12px 20px;
+      background-color: #434f02;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .menu a:hover {
+      background-color: #1c0647;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      color: #010005;
+      text-shadow: 20px 20px 4px #06232c;
+    }
+    h3 {
+      text-align: center;
+      color: #0d188f;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 50%;
+      margin: 20px auto;
+      border-collapse:separate;
+      border-radius: 10px;   
+      box-shadow: 10px 10px 10px rgba(5, 15, 74, 0.1);
+      background-color: #68d7d7;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: right;
+      border-bottom: 1px solid #040938;
+    }
+
+    th {
+      background-color: #0c0743;
+      color: rgb(157, 213, 46);
+      text-align: center;
+    }
+
+    .logo {
+      position: absolute;
+      top: 450px;
+      left: 44%;
+    }
+
+    footer {
+     position: absolute;
+      top: 800px;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: rgb(25, 7, 102);
+      font-size: 20px;
+      text-shadow:  4px 4px 6px #d1c029 ;
+    }
+
+    
+  </style>
+</head>
+
+<header>
+  <h1>Lista de Profesores</h1>
+  <h3>Información de los Profesores y Cursos que Imparte en el segundo cuatrimestre</h3>
+</header>
+<body>
+  <div class="menu">
+        <a href="bienvenida.html">Volver a Bienvenida</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="estudiantes.html">Estudiantes</a>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Curso</th>
+        <th>Horario</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>30654789</td>
+        <td>Leo Diario</td>
+        <td>MA-11</td>
+        <td>L (M) y M (T)</td>
+        <td>leodiario@edu.uc.dc.cr</td>
+      </tr>
+      <tr>
+        <td>10545587</td>
+        <td>Susana Oria</td>
+        <td>II-51</td>
+        <td>M (N) y K (T)</td>
+        <td>susanaoria@edu.uc.dc.cr</td>
+      </tr>
+      <tr>
+        <td>10258258</td>
+        <td>Zoyla Vaca</td>
+        <td>IN-50</td>
+        <td>S (M) y S (T)</td>
+        <td>zoilavaca@edu.uc.dc.cr</td>
+      </tr>
+      <tr>
+        <td>20154888</td>
+        <td>Zacarias Flores</td>
+        <td>II-60</td>
+        <td>M (N) y K (M)</td>
+        <td>zacariasflores@edu.uc.dc.c</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="logo">
+    <img src="imagenes/logo3_universidad_central.jpeg"
+            alt="Logo de la Universidad Central" style="width: 250px; height: auto; margin-top: 80px;">
+    </div>
+    <footer>
+        <p>© Profesor Fabián Chinchilla Mayorga 2025 </p>
+    </footer>
+  
+
+</body>
+</html>
